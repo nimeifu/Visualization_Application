@@ -1,0 +1,144 @@
+:root{
+    font-size:16px;
+    --bg-primary: #0071c1;
+    --bg-secondary: #0095ff;
+}
+
+body{
+    color:black;
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar{
+    width:0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+    background:#1e1e24;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#0071c1;
+}
+
+
+main {
+  margin-left: 8rem;
+  padding: 1rem;
+}
+
+main p{
+   margin-top:2rem;
+}
+
+main img{
+    width:70vw;
+    height:70vm;
+    margin-bottom:5rem;
+}
+
+.profile_pic{
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin-left:2rem;
+  border: 5px solid var(--bg-primary);
+}
+
+
+
+.navbar{
+    width: 8rem;
+    height: 100vh;
+    position:fixed;
+    background-color: var(--bg-primary);
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-item{
+    width:100%;
+    color:white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+
+}
+.nav-item:last-child{
+    margin-top:auto;
+    margin-bottom:1.5rem;
+}
+
+.nav-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    text-decoration:none;
+}
+
+.nav-item i {
+    color:white;
+    width:100%;
+    opacity:0.5;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-item span {
+    display: block;
+    color: white;
+    justify-content: center;
+    opacity: 0.7;
+    font-size: 0.875rem;
+    margin-right:3.5rem;
+    margin-left:auto;
+    padding: 0;
+}
+
+.nav-item i:hover{
+    background-color:#d6d6e4;
+
+}
+
+table{
+    margin: 2rem 0;
+    font-size: 2rem;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table th{
+    background-color:var(--bg-secondary);
+    color: #ffffff;
+    text-align: left;
+    font-weight:bold;
+}
+
+th,td{
+    padding: 1rem;
+}
+
+tbody td{
+    border-bottom: 1px solid #dddddd;
+}
+
+img{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
